@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgb(32, 46, 92);
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.match {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(48, 34, 34);
+  min-height: 50vh;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e04f4f;
+  padding: 5rem;
+  border-radius: 3rem;
+  box-shadow: -2px -11px 38px -15px rgba(255, 255, 255, 0.47);
+}
+
+h2 {
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 5rem;
+  background: black;
+  padding: 20px;
+}
+p {
+  font-size: 3rem;
+}
